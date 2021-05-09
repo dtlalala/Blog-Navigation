@@ -25,8 +25,8 @@ url: /getPages GET
 {
   code: 1,
   data: [
-    {pageId: 1, sortId: 1, title: "个人博客", subTitle: "这是我的个人博客页面", url: "http://www.dtlalala.xyz/", cover: ""},
-    {pageId: 2, sortId: 1, title: "个人博客", subTitle: "这是我的个人博客页面", url: "http://www.dtlalala.xyz/", cover: ""}
+    {pageId: 1, sortId: 1, title: "个人博客", subTitle: "这是我的个人博客页面", url: "http://www.dtlalala.top/", cover: ""},
+    {pageId: 2, sortId: 1, title: "个人博客", subTitle: "这是我的个人博客页面", url: "http://www.dtlalala.top/", cover: ""}
   ]
 }
 ```
