@@ -2,20 +2,20 @@ const SERVE = false; // 是否使用线上服务器
 
 const HOST = "https://esunr.xyz:8080/api/esunrIndex"; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "Dtlalala-Blog"; // 个人网站名字
+const BLOG_NAME = "My Blog"; // 个人网站名字
 
 const BLOG_URL = "https://www.dtlalala.top"; // 个人网站链接（请填写完整链接）
 
 const GITHUB = "https://github.com/dtlalala"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "wallhaven.png"; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = "https://dtlalala-picture.oss-cn-hangzhou.aliyuncs.com/pic/wallhaven.png"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
   { sortId: 1, title: "Projects" },
   { sortId: 2, title: "AboutMe" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
-const RECORD_NUMBER = ""; // 网站备案号，留空不显示
+const RECORD_NUMBER = "湘ICP备2021007922号"; // 网站备案号，留空不显示
 
 const PAGES_DATA = [
   {
@@ -31,7 +31,7 @@ const PAGES_DATA = [
     sortId: 1,
     title: "简单的个人图片列表",
     subtitle: "Photo Gallery",
-    url: "http://116.62.15.24:8090/",
+    url: "http://pic.dtlalala.top/",
     icon: "gallery.svg"
   },
   {

@@ -51,7 +51,7 @@
     </div>
 
     <!-- 备案号 -->
-    <a
+    <a target="_blank"
       class="record_number"
       :class="{ record_number_show: flag }"
       href="http://beian.miit.gov.cn/"

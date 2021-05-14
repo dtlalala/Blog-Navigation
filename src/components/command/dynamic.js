@@ -143,7 +143,7 @@ const getTime = () => {
         return new Promise((resolve) => {
           print({ type: 'success', label: 'Success', content: 'Opening' })
   
-          window.open('http://116.62.15.24:8090/', '_blank')
+          window.open('http://pic.dtlalala.top/', '_blank')
           resolve({ type: 'success', label: 'Done', content: '( •̀ ω •́ )✧' })
         })
       }
